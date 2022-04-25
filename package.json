@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "prestart": "eslint .",
+    "start": "npm run prestart && node index.js"
   },
   "repository": {
     "type": "git",
