@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/pradeep99909/spoon-notification#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "mongoose": "^6.3.1",
     "nodemailer": "^6.7.3"
